@@ -406,13 +406,146 @@
       "srcDir": "src",
       "backend": "c",
       "ref": "refs/tags/v0.3.3"
+    },
+    {
+      "name": "libpe",
+      "version": "0.3.4",
+      "author": "srozb",
+      "desc": "Nim rewrite for libpe library",
+      "license": "GPL-3.0",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.6.4",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.6.4"
+          }
+        },
+        {
+          "name": "hashlib",
+          "str": "1.0.1",
+          "ver": {
+            "kind": "verEq",
+            "ver": "1.0.1"
+          }
+        },
+        {
+          "name": "libfuzzy",
+          "str": "0.1.1",
+          "ver": {
+            "kind": "verEq",
+            "ver": "0.1.1"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.3.4"
+    },
+    {
+      "name": "libpe",
+      "version": "0.3.5",
+      "author": "srozb",
+      "desc": "Nim rewrite for libpe library",
+      "license": "GPL-3.0",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.6.6",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.6.6"
+          }
+        },
+        {
+          "name": "hashlib",
+          "str": "1.0.1",
+          "ver": {
+            "kind": "verEq",
+            "ver": "1.0.1"
+          }
+        },
+        {
+          "name": "libfuzzy",
+          "str": "0.1.1",
+          "ver": {
+            "kind": "verEq",
+            "ver": "0.1.1"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.3.5"
+    },
+    {
+      "name": "libpe",
+      "version": "0.3.6",
+      "author": "srozb",
+      "desc": "Nim rewrite for libpe library",
+      "license": "GPL-3.0",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.6.6",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.6.6"
+          }
+        },
+        {
+          "name": "hashlib",
+          "str": "1.0.1",
+          "ver": {
+            "kind": "verEq",
+            "ver": "1.0.1"
+          }
+        },
+        {
+          "name": "libfuzzy",
+          "str": "0.1.1",
+          "ver": {
+            "kind": "verEq",
+            "ver": "0.1.1"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.3.6"
     }
   ],
   "description": "Nim wrapper for libpe library",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "web": "https://github.com/srozb/nim-libpe",
   "refs": [
     "refs/heads/fix_includes",
+    "refs/heads/gh_action",
     "refs/heads/master",
     "refs/heads/nimrewrite",
     "refs/tags/v0.1.0",
@@ -426,6 +559,9 @@
     "refs/tags/v0.3.1",
     "refs/tags/v0.3.2",
     "refs/tags/v0.3.3",
+    "refs/tags/v0.3.4",
+    "refs/tags/v0.3.5",
+    "refs/tags/v0.3.6",
     ""
   ],
   "heads": [
