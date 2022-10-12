@@ -103,6 +103,30 @@
   inputs."libpe-v0_3_3".inputs.nixpkgs.follows = "nixpkgs";
   inputs."libpe-v0_3_3".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."libpe-v0_3_4".dir   = "v0_3_4";
+  inputs."libpe-v0_3_4".owner = "nim-nix-pkgs";
+  inputs."libpe-v0_3_4".ref   = "master";
+  inputs."libpe-v0_3_4".repo  = "libpe";
+  inputs."libpe-v0_3_4".type  = "github";
+  inputs."libpe-v0_3_4".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."libpe-v0_3_4".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."libpe-v0_3_5".dir   = "v0_3_5";
+  inputs."libpe-v0_3_5".owner = "nim-nix-pkgs";
+  inputs."libpe-v0_3_5".ref   = "master";
+  inputs."libpe-v0_3_5".repo  = "libpe";
+  inputs."libpe-v0_3_5".type  = "github";
+  inputs."libpe-v0_3_5".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."libpe-v0_3_5".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."libpe-v0_3_6".dir   = "v0_3_6";
+  inputs."libpe-v0_3_6".owner = "nim-nix-pkgs";
+  inputs."libpe-v0_3_6".ref   = "master";
+  inputs."libpe-v0_3_6".repo  = "libpe";
+  inputs."libpe-v0_3_6".type  = "github";
+  inputs."libpe-v0_3_6".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."libpe-v0_3_6".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;

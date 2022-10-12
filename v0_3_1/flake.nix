@@ -24,7 +24,7 @@
   inputs."libfuzzy".owner = "nim-nix-pkgs";
   inputs."libfuzzy".ref   = "master";
   inputs."libfuzzy".repo  = "libfuzzy";
-  inputs."libfuzzy".dir   = "master";
+  inputs."libfuzzy".dir   = "v0_1_0";
   inputs."libfuzzy".type  = "github";
   inputs."libfuzzy".inputs.nixpkgs.follows = "nixpkgs";
   inputs."libfuzzy".inputs.flakeNimbleLib.follows = "flakeNimbleLib";

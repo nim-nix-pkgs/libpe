@@ -7,11 +7,11 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
-  inputs.src-libpe-v0_2_0.flake = false;
-  inputs.src-libpe-v0_2_0.ref   = "refs/tags/v0.2.0";
-  inputs.src-libpe-v0_2_0.owner = "srozb";
-  inputs.src-libpe-v0_2_0.repo  = "nim-libpe";
-  inputs.src-libpe-v0_2_0.type  = "github";
+  inputs.src-libpe-v0_3_5.flake = false;
+  inputs.src-libpe-v0_3_5.ref   = "refs/tags/v0.3.5";
+  inputs.src-libpe-v0_3_5.owner = "srozb";
+  inputs.src-libpe-v0_3_5.repo  = "nim-libpe";
+  inputs.src-libpe-v0_3_5.type  = "github";
   
   inputs."hashlib".owner = "nim-nix-pkgs";
   inputs."hashlib".ref   = "master";
@@ -24,7 +24,7 @@
   inputs."libfuzzy".owner = "nim-nix-pkgs";
   inputs."libfuzzy".ref   = "master";
   inputs."libfuzzy".repo  = "libfuzzy";
-  inputs."libfuzzy".dir   = "v0_1_0";
+  inputs."libfuzzy".dir   = "v0_1_1";
   inputs."libfuzzy".type  = "github";
   inputs."libfuzzy".inputs.nixpkgs.follows = "nixpkgs";
   inputs."libfuzzy".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
@@ -32,13 +32,13 @@
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
     lib  = flakeNimbleLib.lib;
-    args = ["self" "nixpkgs" "flakeNimbleLib" "src-libpe-v0_2_0"];
+    args = ["self" "nixpkgs" "flakeNimbleLib" "src-libpe-v0_3_5"];
     over = if builtins.pathExists ./override.nix 
            then { override = import ./override.nix; }
            else { };
   in lib.mkRefOutput (over // {
     inherit self nixpkgs ;
-    src  = deps."src-libpe-v0_2_0";
+    src  = deps."src-libpe-v0_3_5";
     deps = builtins.removeAttrs deps args;
     meta = builtins.fromJSON (builtins.readFile ./meta.json);
   } );
