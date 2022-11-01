@@ -23,11 +23,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1667144409,
-        "narHash": "sha256-SS/yuF/0fktcP9kd+scRPPpaanDLm82Fv2beGmK0bVs=",
+        "lastModified": 1667110639,
+        "narHash": "sha256-4FbPESZ5LbqQxkJJJBAfk/zKgF9h/4kyUwjjpJwYlbc=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "575bb5a4a0fac1347d7e0f9aae6f8ef8b8085b8c",
+        "rev": "f38a1f04d1bec1feb61fd101a0539ae2002a7087",
         "type": "github"
       },
       "original": {
@@ -39,22 +39,22 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-libpe-master": "src-libpe-master"
+        "src-libpe-v0_1_4": "src-libpe-v0_1_4"
       }
     },
-    "src-libpe-master": {
+    "src-libpe-v0_1_4": {
       "flake": false,
       "locked": {
-        "lastModified": 1665042642,
-        "narHash": "sha256-/l1fQjmwzvIRjso0KGFbUNJhDAVV7WgjHEu5GhNf/Z8=",
+        "lastModified": 1660907427,
+        "narHash": "sha256-G7su50hl4oYxX/gxqUWJBakgq4AY7K6qpj7Jul9nee8=",
         "owner": "srozb",
         "repo": "nim-libpe",
-        "rev": "4c01a7f4b161493cf48138973505b97834f8bae2",
+        "rev": "db410de3496938b5476f41f6babd3e0ba5e48e5f",
         "type": "github"
       },
       "original": {
         "owner": "srozb",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v0.1.4",
         "repo": "nim-libpe",
         "type": "github"
       }
