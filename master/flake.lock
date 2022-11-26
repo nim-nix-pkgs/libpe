@@ -183,11 +183,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1669431891,
-        "narHash": "sha256-0rjUekZbnUA7NwCj/5Be606YObY8Yp+pCAm5wzmdvEY=",
+        "lastModified": 1669438723,
+        "narHash": "sha256-CsJL9k87mtHI9WfX4XUUT48oPVE98N/lcVYsPcYTWMg=",
         "owner": "nim-nix-pkgs",
         "repo": "hashlib",
-        "rev": "63331f747a2c2be405b22d1e0a6094b6e1f84353",
+        "rev": "49c21194c1cc8dbadb2c3a6a0fa17b96a322cfdf",
         "type": "github"
       },
       "original": {
@@ -210,11 +210,11 @@
       },
       "locked": {
         "dir": "v0_1_1",
-        "lastModified": 1669431174,
-        "narHash": "sha256-f7qwvVXsjb24Iuf2zuRVTG/847uA2EIFKe5vpGcqe9I=",
+        "lastModified": 1669438119,
+        "narHash": "sha256-mDEuSOydEKgFY+c0MgmFWIpQLAKJjuruZ2Sv2GufMHA=",
         "owner": "nim-nix-pkgs",
         "repo": "libfuzzy",
-        "rev": "81e9e42fac4ea24c93b863f6ae0e1902f9fab61b",
+        "rev": "66c3a9f3f48bb7c1df3821c6d879d3a3cb4e9462",
         "type": "github"
       },
       "original": {
@@ -239,11 +239,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1669431239,
-        "narHash": "sha256-xPnisrGeQKbdjQDI41S0QE5D6x5I6fZMYYNNXTqO93c=",
+        "lastModified": 1669438178,
+        "narHash": "sha256-vQ/VywbkpC5HI8eJuitzUKsm2psu4Ln80mJZ4rXAb7w=",
         "owner": "nim-nix-pkgs",
         "repo": "nimcrypto",
-        "rev": "bfb65b6479f1a364662ecbf46483c777bb3b2bf8",
+        "rev": "21bc0ee9de5a9f8c0aed6e850927a003555cedb8",
         "type": "github"
       },
       "original": {
